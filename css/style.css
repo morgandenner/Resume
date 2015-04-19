@@ -1,0 +1,319 @@
+/*===============GENERIC STYLES========================== */
+html{
+	width: auto;
+	height: 100%;
+	}
+#body{
+	overflow-x: hidden;
+	background-color: #3b3448!important;
+	}
+body{
+	overflow-x: hidden;
+	background-color: #3b3448!important;
+	}
+.navbar-brand{
+	color: #ff6666!important;
+	font-family: 'Lora', serif;
+	font-size: 11px;
+	}
+#businesscard{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 10%;
+	width: 280px;
+	height: 150px;
+	opacity: .99;
+	border: solid 1px black;
+	background-color: white;
+	font-size: 12px;
+	color: #3b3448;
+	}
+.navbar {
+	position: fixed;
+	float: top;
+	z-index: 2;
+    background-color: #3b3448;
+    background: rgba(255, 255, 255, 0);
+  }
+.navbarhover {
+	z-index: 2;
+    background-color: #3b3448;
+    background: #3b3448;
+  }
+.navbar a{
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	color: #ff6666;
+	}
+.navbarhover a{
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	background-color: #3b3448;
+	color: #d5d3d7;
+	}
+.navbar a:hover{
+	color: #313640!important;
+	background: rgba(255, 255, 255, 0)!important;
+	}
+.navbarhover a:hover{
+	color: #313640!important;
+	background: #d5d3d7!important;
+	}
+.dropdown-menu a{
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	color: #d5d3d7!important;
+	}
+.dropdown-menu a:hover{
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	color: #d5d3d7!important;
+	background: rgba(255, 255, 255, 0)!important;
+	}
+.dropdown-menu {
+    background-color: #3b3448;
+    background: #3b3448;
+  }
+#nav-button{
+	background-color: #3b3448;
+	color: floralwhite;
+	}
+.icon-bar{
+	background-color: #ff6666;
+	}
+#light1{
+	margin-top: -540px;
+	}
+#light2{
+	margin-top: -180px;
+	}
+#light3{
+	margin-top: -670px;
+	}
+#light4{
+	margin-top: -350px
+	}
+#light5{
+	margin-top: -540px;
+	}
+#light6{
+	margin-top: -600px;
+	}
+#light7{
+	margin-top: -250px;
+	}
+#section{
+	background-color: white!important;
+	}
+#home{
+	position: absolute;
+	opacity: 2;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+	}
+#enter a{
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 2;
+	color: #d5d3d7!important;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 20px;
+	}
+#hometext{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	opacity: 2;
+	color: #d5d3d7;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 40px;
+	}
+a:hover{
+	text-decoration: none!important;
+	}
+#bgvid {
+	position: absolute; 
+	right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	overflow: hidden;
+	width: auto; height: auto; z-index: -99;
+	background-color: #3b3448;
+	}
+#logo{
+	color: #ff6666;
+	height: 50px;
+	width: 110px;
+	}
+.wrap{
+	/* Negative indent footer by its height */
+	margin-bottom: -50px;
+	/* Pad bottom by footer height */
+	padding: 0 0 50px;
+	}
+.wrap:after{
+	content: "";
+	display: block;
+	}
+.site-footer, .wrap:after{
+	height: 50px;
+	}
+.site-footer{
+	color: #ff6666;
+	height:50px;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: bottom;	
+	background: #3b3448;
+	clear: both;
+	}
+.site-footer a{
+	color: #ff6666!important;
+	text-decoration: none!important;
+	font-size: 12px;
+	font-family: 'Lora', serif;
+	}
+footer div{
+	color: #ff6666;
+	text-decoration: none!important;
+	font-size: 12px;
+	font-family: 'Lora', serif;
+	}
+.site-footer a:hover{
+	color: #313640!important;
+	text-decoration: none!important;
+	font-size: 12px;
+	font-family: 'Lora', serif;
+	}
+#footerimage{
+	height: 20px;
+	width: 20px;
+	}
+p{
+	font-family: 'Lora', serif;
+	}	
+
+#left{
+	border-bottom: solid 1px #8a8a8a;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+#right{
+	text-align: center;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #8a8a8a;
+	}
+#last{
+	text-align: center;
+	padding-bottom: 50px;
+	}
+#left h1{
+	padding-top: 40px;
+	font-size: 23px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #313640;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+	}
+#last h1{
+	padding-top: 45px;
+	font-size: 23px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #313640;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+	}
+#right h1{
+	padding-top: 45px;
+	font-size: 23px;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #313640;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+	}
+#left p{
+	font-size: 15px;
+	padding-bottom: 50px;
+	font-family: 'Lora', serif;
+	color: #313640;
+	}
+#right p{
+	font-size: 15px;
+	padding-bottom: 50px;
+	font-family: 'Lora', serif;
+	color: #313640;
+	}
+#last p{
+	font-size: 15px;
+	padding-bottom: 50px;
+	font-family: 'Lora', serif;
+	color: #313640;
+	}
+
+.btn{
+	padding: 0 0 0 0!important;
+	background-color: floralwhite!important;
+	text-align: center!important;
+	color: #8a8a8a!important;
+	font-size: 20px!important;
+	font-weight: bold!important;
+	height: 40px;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 60px!important;
+	font-family: 'Lora', serif;
+	border: solid 4px #8a8a8a!important;
+	border-radius: 0!important;
+	}
+.btn:hover{
+	background-color: #8a8a8a!important;
+	color: floralwhite!important;
+	}
+.btn a{
+	color: #fffde1!important;
+	text-decoration: none!important;
+}
+.btn a:hover{
+	color: #313640!important;
+	text-decoration: none!important;
+	background-color: #8b8bbb!important;
+}
+#typewriter{
+	position: relative;
+	min-height: 300px;
+	width: 100%;
+}
+/* ============APP ========================================*/
+#appstores{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	opacity: .99;
+	text-align: center;
+	margin-top: 70px!important;
+	}
+#appcontainer{
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+	}
+/* ============BLOG ========================================*/
+/* ============HOW IT WORKS================================*/
+/* ============TEAM ========================================*/
+/* ============FAQ ========================================*/
+/* ============PRESS======================================*/
+/* ============BLOG ========================================*/
